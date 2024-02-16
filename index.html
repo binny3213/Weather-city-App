@@ -101,6 +101,12 @@
         checkWeather(searchBox.value);
     }
    });
+    searchBox.addEventListener("shift",function(e){
+    if(e.key === 'shift')
+    {
+        checkWeather(searchBox.value);
+    }
+   });
 
    
 
